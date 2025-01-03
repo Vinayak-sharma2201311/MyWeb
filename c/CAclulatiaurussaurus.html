@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CAclulatiaurussaurus</title>
+        <link rel="stylesheet" href="./style.css">
+        <script src="./script.js"></script>
+    </head>
+    <body>
+        <table border=1>
+            <tr>
+                <td colspan="4" rowspan="1"><input type="text" id="display" placeholder="0"></td>
+                <td><button onclick="deleteDisplay()" class="backspace">⇽</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="clearDisplay()" class="functions">C</button></td>
+                <td><button onclick="updateDisplay('(-')" class="functions">+/-</button></td>
+                <td><button onclick="updateDisplay('(')" class="spchar">(</button></td>
+                <td><button onclick="updateDisplay(')')" class="spchar">)</button></td>
+                <td><button onclick="updateDisplay('^')" class="spchar">^</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="updateDisplay('+')" class="spchar">+</button></td>
+                <td><button onclick="updateDisplay('+')" class="spchar">+</button></td>
+                <td><button onclick="updateDisplay('+')" class="spchar">+</button></td>
+                <td><button onclick="evalDisplay()" class="eq">=</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="updateDisplay('1')" class="nos">1</button></td>
+                <td><button onclick="updateDisplay('2')" class="nos">2</button></td>
+                <td><button onclick="updateDisplay('3')" class="nos">3</button></td>
+                <td><button onclick="updateDisplay('+')" class="op">+</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="updateDisplay('4')" class="nos">4</button></td>
+                <td><button onclick="updateDisplay('5')" class="nos">5</button></td>
+                <td><button onclick="updateDisplay('6')" class="nos">6</button></td>
+                <td><button onclick="updateDisplay('-')" class="op">-</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="updateDisplay('7')" class="nos">7</button></td>
+                <td><button onclick="updateDisplay('8')" class="nos">8</button></td>
+                <td><button onclick="updateDisplay('9')" class="nos">9</button></td>
+                <td><button onclick="updateDisplay('*')" class="op">x</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="updateDisplay('%')" class="spchar">%</button></td>
+                <td><button onclick="updateDisplay('0')" class="nos">0</button></td>
+                <td><button onclick="updateDisplay('.')" class="spchar">.</button></td>
+                <td><button onclick="updateDisplay('/')" class="op">÷</button></td>
+            </tr>
+        <table>
+    </body>
+</html>

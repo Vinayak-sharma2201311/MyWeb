@@ -1,0 +1,40 @@
+table {
+    align-items: center;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+input[type="text"] {
+    height: 100px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+button {
+    width: 42px;
+    height: 30px;
+    background-color: white;
+    border: none;
+}
+.backspace {
+    font-style: italic;
+    border: none;
+    margin-left: -115%;
+    margin-top: 167%;
+    background-color: white;
+}
+.op {
+    background-color: rgb(228, 228, 255);
+}
+.eq {
+    background-color: rgb(14, 221, 14);
+    color: white;
+}
+.nos {
+    background-color: rgba(238, 217, 217, 0.904);
+}
+.spchar {
+    background-color: rgb(255, 230, 197);
+}
+.functions {
+    background-color: rgb(250, 250, 195);
+}
